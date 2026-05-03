@@ -12,6 +12,7 @@ export const project = {
     "Shadcn/ui",
     "Convex",
     "Clerk",
+    "Inngest",
     "Authentication (JWT / NextAuth)",
     "Firecrawl",
     "Sentry",
@@ -31,10 +32,18 @@ export const project = {
     "Represents my growth through experimental and product-focused frontend work.",
   ],
   links: {
+    live: "https://polaid.vercel.app",
     repo: "https://github.com/karimm1620/polaid",
   },
 };
 
 export default function PolaidDetail({ onClose, mode }) {
-  return <ProjectCaseLayout project={project} onClose={onClose} closeLabel={mode === "modal" ? "Close" : "Back to Home"} mode={mode} />;
+  return (
+    <ProjectCaseLayout
+      project={project}
+      onClose={onClose}
+      closeLabel={mode === "modal" ? "Close" : "Back to Home"}
+      mode={mode}
+    />
+  );
 }

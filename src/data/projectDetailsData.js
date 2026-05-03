@@ -16,6 +16,7 @@ export const PROJECT_DETAILS_DATA = {
       "Shadcn/ui",
       "Convex",
       "Clerk",
+      "Inngest",
       "Authentication (JWT / NextAuth)",
       "Firecrawl",
       "Sentry",
@@ -33,6 +34,7 @@ export const PROJECT_DETAILS_DATA = {
       "Represents an ongoing project that reflects my growth as a full-stack developer.",
     ],
     links: {
+      live: "https://polaid.vercel.app",
       repo: "https://github.com/karimm1620/polaid",
     },
     notes: "Project in progress.",
@@ -56,6 +58,7 @@ export const PROJECT_DETAILS_DATA = {
       "Reflects experience building product-oriented interfaces.",
     ],
     links: {
+      live: "https://asrim-cell-store.vercel.app",
       repo: "https://github.com/karimm1620/AsrimCell-Store-V3",
     },
   },
